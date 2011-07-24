@@ -709,3 +709,7 @@ RTree.Rectangle.make_MBR = function(nodes, rect) {
 
 	return(rect);
 };
+
+if (typeof module === 'object' && typeof require === 'function') {
+    exports.RTree = RTree
+}
